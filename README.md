@@ -28,7 +28,7 @@ We are parsimonious in our use of standards, so that:
 
 This specification defines three functional roles:
 
-* **Slot Discovery Client**: the booking tool of a patient's choice. This system discoverys appointment slots on a patient's behalf, and helps the patient choose the best slots to book (e.g., by evaluating trade-offs of travel distance or wait time).
+* **Slot Discovery Client**: the booking tool of a patient's choice. This system discovers appointment slots on a patient's behalf, and helps the patient choose the best slots to book (e.g., by evaluating trade-offs of travel distance or wait time).
 
 * **Slot Publisher**: the API service offered by a healthcare provider, advertising available slots. Critically, advertising a slot should be low-risk, since the mere fact that a slot is advertised does *not* guarantee that any given patient will be allowed to book the slot; instead, sophisticated rules can be implemented by the...
 
